@@ -363,7 +363,7 @@ export default class LoginPage extends RX.Component{
                 </RX.View>
                 <RX.View style={styles.footer}>
 
-<RX.Button style={styles.footerText}onPress={()=> this.onChangePost()}>Next</RX.Button>
+<RX.Button style={styles.footerText} onPress={()=> this.onChangePost()}>Next</RX.Button>
    </RX.View>
                 
        

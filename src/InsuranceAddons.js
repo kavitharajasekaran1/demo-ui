@@ -14,8 +14,8 @@ import swal from 'sweetalert';
 import debounce from 'lodash.debounce';
 const parseJson = require('parse-json');
 //const parser = require('xml2json');
-var uniqid = require('uniqid');
-var excelToJson = require('convert-excel-to-json');
+//var uniqid = require('uniqid');
+//var excelToJson = require('convert-excel-to-json');
 import { DropdownMenu, MenuItem as DMenuItem } from 'react-bootstrap-dropdown-menu';
 
 //import xlsx from 'xlsx'; 
@@ -266,7 +266,7 @@ console.log("kavitha.......");
                  //resJson1 = JSON.parse(res)
                 
                 // console.log(resJson1)
-                  message = resJson1.PREMIUMDETAILS.Status.Message
+                 // message = resJson1.PREMIUMDETAILS.Status.Message
                   console.log(message,"kavviiiiiiiiiiiiiiiiiiiiiiii")
       
       

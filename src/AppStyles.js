@@ -565,6 +565,26 @@ FOrm:RX.Styles.createViewStyle({
         padding:5
  
     }),
+    BUTTON61 :RX.Styles.createViewStyle({
+        display: 'block',
+         width: '14%',
+         height: 41,
+         justifyContent: 'center',
+        alignItems: 'center',
+         // padding: 6px 12px;
+          fontSize: 20,
+        // line: 1.42857143;
+        color: "White",
+        backgroundColor: "blue",
+        borderWidth:1,
+        borderColor:"#ccc",
+        borderRadius: 4,
+        marginVertical: 6,
+        marginHorizontal: 12,
+        padding:5,
+        alignItems:"center"
+ 
+    }),
     BUTTON6 :RX.Styles.createViewStyle({
         display: 'block',
          width: '14%',
@@ -579,13 +599,14 @@ FOrm:RX.Styles.createViewStyle({
         borderWidth:1,
         borderColor:"#ccc",
         borderRadius: 4,
-        marginLeft:455,
+        marginLeft:529,
         marginTop:-133,
         padding:5
  
     }),
     BUTTON7 :RX.Styles.createViewStyle({
         display: 'block',
+        
          width: '14%',
          height: 41,
          justifyContent: 'center',
@@ -688,6 +709,18 @@ FOrm:RX.Styles.createViewStyle({
     clientBor: RX.Styles.createViewStyle({
         borderBottomWidth:1,
         borderColor:"#cccccc"
+    }),
+   but11: RX.Styles.createViewStyle({
+        borderBottomWidth:1,
+        backgroundColor:"#cccccc",
+        marginLeft:218
+    }),
+    but12: RX.Styles.createViewStyle({
+        borderBottomWidth:1,
+        backgroundColor: "green",
+        marginLeft:446,
+        marginRight:-285,
+        color:"white"
     }),
 }
 

@@ -326,6 +326,10 @@ console.log("quoteid_",this.props.navigatorRoute.quoteid)
         this.setState({ vehicleManufacturerName: value });
         console.log(this.state.vehicleManufacturerName,"vehicleManufacturerName");
     }
+    testing=()=>{
+          swal("Your quote is being processing. Please wait......") ;
+        
+    }
 
     // validateEmail(value) {
     //     let regex = /\w[-._\w]*@[-._\w]*\w\.\w{2,5}/;
@@ -1203,13 +1207,22 @@ console.log("quoteid_",this.props.navigatorRoute.quoteid)
 
                                         </Col>
                                     </Row>*/}
+                                            <Button  style={{"marginLeft":446,"marginRight":-409,"backgroundColor": "green","color":"white"}} onClick={()=> this.onChangePost() }>STEP2</Button>
+                                            <Button   style={styling.but12} onClick={()=> this.testing() }>STEP1 </Button>
+
 
                                     <Row className="show-grid">
-                                        <Col md={12} style={styling.marTop10}>
+                                    
+                                        {/* <Col md={12} style={styling.marTop10}> */}
                                             {/*<RX.Button   onPress={()=> this.onChangePost() }>Submit</RX.Button>*/}
-                                            <RX.Button style={styling.BUTTON6} onPress={()=> this.onChangePost() }>Next</RX.Button>
-
-                                        </Col>
+                                            
+                                             
+                                           
+                                            
+                                         
+                                           
+                                          
+                                        {/* </Col> */}
                                         {/*<Col  md={6} style={styling.marTop}>
                                             <RX.Button onPress={()=> this.onChangeDummy() }>Dummy</RX.Button>
                                             <RX.Button style={styling.button} onPress={ this.props.onNavigateEleven }>
@@ -1402,13 +1415,21 @@ console.log("quoteid_",this.props.navigatorRoute.quoteid)
                                     <Row className="show-grid">
                                         <Col md={12} style={styling.marTop10}>
                                             {/*<RX.Button   onPress={()=> this.onChangePost() }>Submit</RX.Button>*/}
-                                            <Button  style={styling.btnMaxWidth} bsStyle="primary">Next</Button>
+
+                                            <Button  style={styling.btnMaxWidth} bsStyle="primary">step2</Button>
+
                                             
-                                            <RX.Button style={ _styles.roundButton } onPress={ this.props.onNavigateEight }>
-                                            <RX.Text style={ _styles.buttonText }>
-                                            NEXT
-                                            </RX.Text>
-                                            </RX.Button>
+                                            {/* <Button style={ _styles.roundButton } onPress={ this.testing() }>
+                                            <Text style={ _styles.buttonText }>
+                                            STEP1
+                                            </Text>
+                                            </Button>
+                                             
+                                            <Button style={ _styles.roundButton } onPress={ this.props.onNavigateEight }>
+                                            <Text style={ _styles.buttonText }>
+                                            STEP2
+                                            </Text>
+                                            </Button> */}
                                             </Col>
                                         {/*<Col  md={6} style={styling.marTop}>
                                             <RX.Button onPress={()=> this.onChangeDummy() }>Dummy</RX.Button>

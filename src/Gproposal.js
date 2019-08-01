@@ -448,7 +448,7 @@ componentDidMount(){
                                                 type="Quote ID"
                                                 style={ _styles.Form}
                                                 placeholder="Quote Id"
-                                                value={ quoteid }
+                                                value={ 1236754}
                                                 onChangeText={this.onChangequoteid}
                                                 // defaultValue={ this.state.inputValue }
                                             />
@@ -466,8 +466,8 @@ componentDidMount(){
                                             <RX.TextInput
                                                 type="Premium"
                                                 style={_styles.Form}
-                                                placeholder="Premium"
-                                                value={mypremium}
+                                                placeholder="4090.00"
+                                                value={4090.00}
                                                 onChangeText={this.onChangepremium}
                                                 // defaultValue={ this.state.inputValue }
                                             />
