@@ -14,8 +14,8 @@
     "babel-preset-react-native": "1.9.2",
     "ember-sweetalert": "^0.1.1",
     "source-map": "^0.7.2",
-    "source-map-loader": "^0.1.6",
-    "webpack": "^2.7.0"
+    "source-map-loader": "^4.0.1",
+    "webpack": "^5.75.0"
   },
   "dependencies": {
     "babel-core": "^6.26.0",
@@ -56,7 +56,7 @@
     "reactxp-navigation": "^1.0.14",
     "reactxp-video": "^0.2.1",
     "sweetalert": "^2.1.0",
-    "webpack": "^2.7.0",
+    "webpack": "^5.75.0",
     "webpack-dev-server": "^3.1.0"
   },
   "description": "This app works on React Native (iOS, Android) and web. Most of the app's code is contained in `App.tsx`.",
